@@ -18,5 +18,5 @@ Deux propriétaires ne pourront avoir le même nom.
 
 Créer une classe OwnerFactory qui permet de créer des propriétaires en s'assurant qu'ils ont tous des noms différents. 
 
-Implémenter une classe Owners qui stocke en mémoire un ensemble de propriétaires et les véhicules qui sont associés à chacun.
+Implémenter l'interface Owners dans une classe OwnersRepository en stockant en mémoire un ensemble de propriétaires et les véhicules qui sont associés à chacun.
 On fera en sorte qu'une voiture ne pourra être possédée par deux personnes différentes.
