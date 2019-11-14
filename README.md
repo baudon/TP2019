@@ -7,7 +7,7 @@ Pour chaque classe (y compris celles fournies) mettez en commentaire s'il s'agit
 Une voiture (Car) est identifiée par un numéro unique. Chaque voiture possède un modèle (Model), un modèle étant caractérisé par son nom et sa marque (Make).  
 
 ## Compiler le code et exécutez les tests.
-Corriger le problème soulevé par l'erreur détectée dans TestCar.
+Corriger le problème d'encapsulation soulevé par l'erreur détectée dans TestCar. Le test pourra ensuite être supprimé.
 
 Corriger le problème soulevé par l'erreur détectée dans TestCarFactory.
 
