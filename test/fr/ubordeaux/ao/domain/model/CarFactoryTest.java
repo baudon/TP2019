@@ -11,6 +11,7 @@ public class CarFactoryTest {
 
 	Make citroen = new Make("Citroen");
 	Model c2 = new Model("C2", citroen);
+	Model c3 = new Model("C3", citroen);
 
 	@Before
 	public void setUp() throws Exception {
@@ -20,7 +21,7 @@ public class CarFactoryTest {
 	public final void test() {
 		CarFactory cf = new CarFactory();
 		Car ca = cf.getCar(1, c2);
-		Car cb = cf.getCar(1, c2);
+		Car cb = cf.getCar(1, c3);
 	}
 
 }
