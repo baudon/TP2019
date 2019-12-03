@@ -7,8 +7,8 @@ Le but de ce TP est de gérer un ensemble d'avions, et de compagnies d'aviation.
 Un avion (Plane) est identifiée par un numéro unique. Chaque avion possède un modèle (Model), un modèle étant caractérisé par son nom et son constructeur (Constructor).
 
 2) Compiler le code et exécutez les tests.
-3) Corriger le problème d'encapsulation soulevé par l'erreur détectée dans TestCar.testCar(). Le test pourra ensuite être supprimé.
-4) Corriger le problème soulevé par l'erreur détectée dans TestCar.testCar2().
+3) Il est possible de créer un nouvel avion sans passer par la classe PlaneFactory. Corriger ce problème d'encapsulation.
+4) Corriger le problème soulevé par les erreurs détectées dans CompanyTest.test() et ModelTest.test().
 
 Fleets
 
