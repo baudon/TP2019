@@ -18,8 +18,4 @@ public class Company {
 		Company ow = (Company) o;
 		return ow.name.equals(name);
 	}
-	
-	public int hashCode() {
-		return name.hashCode();
-	}
 }
