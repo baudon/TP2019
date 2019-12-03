@@ -20,10 +20,7 @@ public class Model {
 		return constructor;
 	}
 	
-	public boolean equals(Object o) {
-		if (! (o instanceof Model)) 
-			return false;
-		Model m = (Model) o;
+	public boolean equals(Model m) {
 		return m.name.equals(name) && m.constructor.equals(constructor);
 	}
 	
